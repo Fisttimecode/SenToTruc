@@ -37,7 +37,7 @@ function start() {
     }
     if (distance <= 0) {
       clearInterval(x);
-      document.getElementById("container").innerHTML = "<h1>HAPPY NEW YEAR <br> <span>2022</span> </h1>";
+      document.getElementById("container").innerHTML = "<h1>HAPPY NEW YEAR <br> <span>to 12DHTH16</span> </h1>";
       var audio = new Audio("./song.mp3");
       audio.play();
       Run();
